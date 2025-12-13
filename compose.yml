@@ -1,0 +1,13 @@
+services:
+    snapcast:
+        network_mode: host
+        build:
+            context: .
+            dockerfile: Dockerfile
+            args:
+                - LIBRESPOT_NAME=${LIBRESPOT_NAME:-Snapcast}
+        ports:
+            - 1704:1704/tcp
+            - 1705:1705/tcp
+            - 1780:1780
+            - 65535:65535
