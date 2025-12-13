@@ -7,8 +7,6 @@ audio_output_pipe_format: "s32le"
 
 bitrate: 320
 
-normalisation_disabled: true
-
 server:
     enabled: true
     port: 24878
