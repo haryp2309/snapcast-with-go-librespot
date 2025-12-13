@@ -7,9 +7,7 @@ audio_output_pipe_format: "s32le"
 
 bitrate: 320
 
-normalisation_disabled: false
-normalisation_use_album_gain: true
-normalisation_pregain: 6.0
+normalisation_disabled: true
 
 server:
     enabled: true
