@@ -11,3 +11,4 @@ services:
             - 1705:1705/tcp
             - 1780:1780
             - 65535:65535
+        platform: linux/amd64
